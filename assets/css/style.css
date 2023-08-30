@@ -53,3 +53,125 @@ body{
     box-shadow: 0px 0px 50px 1px white;
 }
 
+#contact{
+    width: 1120px;
+    background-color: #2c1d27;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#allinfo{
+    width: 1160px;
+    display: flex;
+}
+
+#myself{
+    width: 400px;
+    background-color: #782221;
+    padding-top: 10px;
+}
+
+#about{
+    width: 90%;
+    background-color: #dbc2a4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 10px;
+}
+
+#description{
+    width: 90%;
+    text-indent: 50px;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+#languages{
+    width: 400px;
+    background-color: #782221;
+    padding-top: 15px;
+    margin-top: -20px;
+}
+
+#lspeak{
+    width: 90%;
+    background-color: #dbc2a4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 10px;
+}
+
+#lang{
+    width: 90%;
+    padding-left: 30px;
+}
+
+#hobbies{
+    width: 400px;
+    background-color: #782221;
+    padding-top: 15px;
+    margin-top: -20px;
+}
+
+#hobb{
+    width: 90%;
+    background-color: #dbc2a4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 10px;
+}
+
+#activities{
+    width: 90%;
+    padding-left: 30px;
+}
+
+#exp{
+    width: 760px;
+    padding-left: 40px;
+}
+
+#pro{
+    width: 95%;
+    background-color: #dbc2a4;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 10px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-color: #782221;
+}
+
+#school{
+    width: 95%;
+    background-color: #dbc2a4;
+    margin-top: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 10px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-color: #782221;
+}
+
+#skills{
+    width: 95%;
+    background-color: #dbc2a4;
+    margin-top: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 10px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-color: #782221;
+}
+
+#social{
+    
+}
