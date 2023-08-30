@@ -18,7 +18,7 @@ body{
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 25px;
-    margin-bottom: -21px;
+    margin-bottom: -25px;
 }
 
 #name{
@@ -27,10 +27,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: -21px;
+    margin-bottom: -20px;
     padding-bottom: 25px;
-    color: white;
-    font-family: "Lato";
 }
 
 #work{
@@ -40,16 +38,14 @@ body{
     flex-direction: row;
     justify-content: center;
     padding-bottom: 50px;
-    color: white;
-    font-family: "Lato"
 }
 
 #PP-style{
+    cursor: zoom-in;
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 100px;
-    cursor: zoom-in;
     box-shadow: 0px 0px 50px 1px white;
 }
 
@@ -63,6 +59,30 @@ body{
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+#adress{
+    text-decoration: none;
+    color: white;
+}
+#adress:hover{
+    text-decoration: underline;
+}
+
+#email{
+    text-decoration: none;
+    color: white;
+}
+#email:hover{
+    text-decoration: underline;
+}
+
+#phone-number{
+    text-decoration: none;
+    color: white;
+}
+#phone-number:hover{
+    text-decoration: underline;
 }
 
 #allinfo{
@@ -116,6 +136,7 @@ body{
     background-color: #782221;
     padding-top: 15px;
     margin-top: -20px;
+    padding-bottom: 290px;
 }
 
 #hobb{
@@ -129,11 +150,17 @@ body{
 #activities{
     width: 90%;
     padding-left: 30px;
+    padding-bottom: 7px;
+    margin-bottom: 90px;
 }
 
 #exp{
     width: 760px;
     padding-left: 40px;
+    padding-bottom: 30px;
+    border-right-color: #2c1d27;
+    border-right-width: 3px;
+    border-right-style: solid;
 }
 
 #pro{
@@ -146,6 +173,41 @@ body{
     border-left-width: 5px;
     border-left-style: solid;
     border-color: #782221;
+}
+
+#eden:hover{
+    border-right-color: #782221;
+    border-right-width: 5px;
+    border-right-style: solid;
+    margin-right: 32px;
+}
+
+#cohi:hover{
+    border-right-color: #782221;
+    border-right-width: 5px;
+    border-right-style: solid;
+    margin-right: 32px;
+}
+
+#BAC:hover{
+    border-right-color: #782221;
+    border-right-width: 5px;
+    border-right-style: solid;
+    margin-right: 32px;
+}
+
+#BEP:hover{
+    border-right-color: #782221;
+    border-right-width: 5px;
+    border-right-style: solid;
+    margin-right: 32px;
+}
+
+#for-border:hover{
+    border-right-color: #782221;
+    border-right-width: 5px;
+    border-right-style: solid;
+    margin-right: 32px;
 }
 
 #school{
@@ -173,5 +235,36 @@ body{
 }
 
 #social{
-    
+    width: 1160px;
+    background-color: #782221;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#twitter:hover{
+    opacity: 0.5;
+}
+
+#linkedin:hover{
+    opacity: 0.5;
+}
+
+#github:hover{
+    opacity: 0.5;
+}
+
+#update{
+    width: 1160px;
+    background-color: #782221;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -20px;
+    padding-top: 15px;
+    margin-bottom: -20px;
+    padding-bottom: 25px;
+    color: white;
+    font-size: smaller;
 }
